@@ -41,27 +41,17 @@ After preprocessing, the next step is to train the sentiment analysis model to c
    ```bash
    python models/sentiment_analysis/train.py
 
-### Predictive Trend Forecasting
-The predictive trend forecasting model analyzes the processed data to predict future trends based on past review sentiments and patterns.
+### Aspect-Based Sentiment Analysis
+The aspect-based sentiment analysis tool groups feedback into thematic buckets for each category of products to determine which features are popular, valued, and in need of improvement.
 1. From the project root directory, run the trend forecasting script:
    ```bash
-   python models/trend_forecasting/predict.py
+   python models/feature_analysis/analyze.py
 
 ### Continuous Model Retraining
 To ensure the models stay accurate and relevant, they can be retrained periodically with new data collected through web scraping.
 1. Run the data collection script to scrape and preprocess new reviews (ensure you have permission to scrape data from the web):
    ```bash
    python scripts/scrape_new_reviews.py
-
-### Using the Web Application (Optional)
-1. Navigate to the web_app directory:
-   cd web_app
-
-2. Start the web server:
-   python app.py
-
-3. Access the web application through your browser at the specified address (e.g., http://localhost:8000).
-
 
 ## Code Structure
 | Directory                   | Description                                                                                   |
@@ -80,10 +70,8 @@ To ensure the models stay accurate and relevant, they can be retrained periodica
 
 
 ## Contributing
-Guidelines for contributing to the project.
 
 ## License
-Information about the project's license.
 
 ## Acknowledgments
-Credits to datasets, libraries, or resources used in the project.
+
