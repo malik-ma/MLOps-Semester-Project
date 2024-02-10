@@ -59,12 +59,11 @@ To ensure the models stay accurate and relevant, they can be retrained periodica
 | `/data`                     | Contains scripts for data preprocessing and cleaning. Includes a README for dataset details. |
 | `/models`                   | Model definition files and training scripts. Split into subdirectories for organizational clarity. |
 | `/models/sentiment_analysis`| Houses the sentiment analysis model, including training and evaluation scripts.               |
-| `/models/trend_forecasting` | Contains the predictive trend forecasting model and related scripts.                          |
+| `/models/aspect_analysis`   | Contains the aspect-based sentiment analysis model and related scripts.                          |
 | `/notebooks`                | Jupyter notebooks for exploratory data analysis, model experiments, and visualizations.      |
 | `/scripts`                  | Utility scripts for tasks such as web scraping, data transformation, and automated model retraining. |
 | `/docs`                     | Documentation files including project proposal, design documents, and additional resources.  |
 | `/tests`                    | Unit tests and integration tests to ensure code reliability and support CI practices.        |
-| `/web_app`                  | Hosts the web application code for displaying results or interacting with the models. |
 | `/.github`                  | GitHub specific configurations, including workflows for GitHub Actions.                      |
 | `README.md`                 | The project's main README file with essential project information, installation instructions, and usage guidelines. |
 
